@@ -5,62 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dazzled || Belanja Online</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="topnav">
-        <ul>
-            <li><a href="index.html">Dazzled</a></li>
-            <li><a href="product.html">Products</a></li>
-            <li><input type="text" name="" id=""></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li>Cart</li>
-            <li>Wishlist</li>
-            <li>Profile</li>
-            <ul>
-                <li><a href="signin.html">Sign In</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </ul>
+        <a href="index.html"><img src="resources/dazzled-logo.png" alt="logo"
+            width="80px" height="60px"></a>
+        <a href="">All Products</a>
+        <a href="faq.html">FAQ</a>
+        <a href="">How to Order</a>
+        <a href="">Cart</a>
+        <a href="">Wishlist</a>
+        <a href="">Users</a>
     </nav>
     <header>
-        <img src="resource/banner.jpg" alt="banner1">
+        <img src="resources/banner.jpg" alt="banner1" width="100%" height="500px">
     </header>
     <div>
-        <h1>New Arrivals</h1>
+        <h1 style="text-align: center;">New Arrivals</h1>
         <!--alt+z-->
-        <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
-        <p>Hoodie</p>
-        <p>$80</p>
-        <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
-        <p>Hoodie</p>
-        <p>$80</p>
-        <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
-        <p>Hoodie</p>
-        <p>$80</p>
-        <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
-        <p>Hoodie</p>
-        <p>$80</p>
-        <br><br><br>
-        <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
-        <h1>DESIGN & DEVELOPMENT</h1>
-        <h1>LEAVE THE MARK AND CARRY ON THE PULSES, RESILIENT!</h1>
-        <p><i>Resilient is our tribute for your ability to recover quickly from difficult conditions, in a form of a sneakers. Resilient lahir ketika keadaan dunia sedang ga baik-baik aja (pasti kalian mengerti) but we do know better. We cant let this shitty situation bring us down.</i></p>
+        <div class="new-arrivals">
+            <div>
+                <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+            <p class="text-bold">Hoodie</p>
+            <p>$80</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+            <p class="text-bold">Hoodie</p>
+            <p>$80</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+            <p class="text-bold">Hoodie</p>
+            <p>$80</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+            <p class="text-bold">Hoodie</p>
+            <p>$80</p>
+            </div>
+        </div>
+        
+    
+       <div class="intro">
+           <div style="flex: 1.3;">
+            <img src="https://images.unsplash.com/photo-1579338559194-a162d19bf842?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt=""
+            width="400px">
+           </div>
+           <div class="text-intro" style="flex: 1;">
+            <h1>DESIGN & DEVELOPMENT</h1>
+            <h1>LEAVE THE MARK AND CARRY ON THE PULSES, RESILIENT!</h1>
+            <p><i>Resilient is our tribute for your ability to recover quickly from difficult conditions, in a form of a sneakers. Resilient lahir ketika keadaan dunia sedang ga baik-baik aja (pasti kalian mengerti) but we do know better. We cant let this shitty situation bring us down.</i></p>
+           </div>
+       </div>
+        
+        <div class="newsletter">
+            <h1>Newsletter</h1>
+            <p>Resilient is our tribute for your ability to recover quickly from difficult conditions, in a form of a sneakers. Resilient lahir ketika keadaan dunia sedang ga baik-baik aja (pasti kalian mengerti) but we do know better. We cant let this shitty situation bring us down.</p>
 
-        <h1>Newsletter</h1>
-        <p>Resilient is our tribute for your ability to recover quickly from difficult conditions, in a form of a sneakers. Resilient lahir ketika keadaan dunia sedang ga baik-baik aja (pasti kalian mengerti) but we do know better. We cant let this shitty situation bring us down.</p>
-
-        <form action="">
-            <input type="email" placeholder="Enter your email here">
-            <button type="submit">Subscribe</button>
-        </form>
+            <form action="">
+                <input type="email" placeholder="Enter your email here">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
     </div>
     <footer>
-        <h1>About us</h1>
-        <p>In NAH Project, we aim to disrupt the billion dollar sneakers industry by being transparent, giving you the reasonable price using direct to consumer model, and bringing back the passion and creativity by being courageous to explore.</p>
-        <h1>Company</h1>
-        <p>About</p>
-        <p>Terms</p>
-        <div>&copy Copyright Dazzled 2021</div>
+        <div style="flex: 1; padding: 0 20%;">
+            <h1>About us</h1>
+            <p>In NAH Project, we aim to disrupt the billion dollar sneakers industry by being transparent, giving you the reasonable price using direct to consumer model, and bringing back the passion and creativity by being courageous to explore.</p>
+        </div>
+        <div style="flex: 1; text-align: center;">
+            <h1>Company</h1>
+            <p>About</p>
+            <p>Terms</p>
+        </div>
     </footer>
 </body>
 </html>

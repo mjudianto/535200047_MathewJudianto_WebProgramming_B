@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family: 'Bebas Neue';
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-nav a{
+    font-size: 25px;
+}
+
+.navbar-nav a:hover {
+    color: black;
+}
+
+.text-center{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.text-center .text{
+    margin-top: 30px;
+    flex-basis: 50%;
+    margin-left: 10%;
+    font-size: 35px;
+    align-content: center;
+}
+
+.text-center .potrait{
+    flex-basis: 50%;
+    margin-right: 5%;
+}
+
+.text-center .text h2{
+    color: grey;
+}
+
+.text-center .text h3{
+    font-size: 23px;
+}
+
+.text-center-about-me{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.text-center-about-me .text-about-me{
+    margin-top: 30px;
+    flex-basis: 50%;
+    margin-right: 10%;
+    font-size: 35px;
+    align-content: center;
+}
+
+.text-center-about-me .potrait-about-me{
+    flex-basis: 50%;
+    margin-left: 5%;
+}
+
+.text-center-about-me .text-about-me h2{
+    color: grey;
+}
+
+.text-center-about-me .text-about-me h3{
+    font-size: 23px;
+}

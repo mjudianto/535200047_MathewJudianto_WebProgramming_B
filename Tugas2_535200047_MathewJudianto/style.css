@@ -75,3 +75,19 @@ body{
 .text-center-about-me .text-about-me h3{
     font-size: 23px;
 }
+
+.card-container {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.card-container .card{
+    text-align: center;
+    margin-left: 220px;
+}
+
+.card-container .card img{
+    height: 300px;
+    width: 100%;
+}

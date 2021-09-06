@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+
+    <style>
+        div{
+            border: 3px solid #4CAF50;
+            padding: 5px;
+        }
+
+        .img{
+            float: right;
+        }
+
+        .clearfix{
+            overflow: auto;
+        }
+
+        .img2{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <p>dalam contoh ini. gambar lebih tinggi dari elemen yang memuatnya, dan itu di-float-kan, sehingga overflow dari penampungnya:</p>
+
+    <div>
+        <img src="" alt="">
+        lorem ipsum dolor sit amet, consectetur adipising elit.
+    </div>
+
+    <p style="clear: right;">
+    tambahkan kelas clearfix dengan overflow:auro; ke elemen yang mengandung, untuk memperbaiki masalah ini</p>
+
+    <div class="clearfix">
+        <img src="" alt="">
+        lorem ipsum dolor sit amet, consectetur adipising elit.
+    </div>
+</body>
+</html>
